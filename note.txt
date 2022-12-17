@@ -1,0 +1,17 @@
+   background-color: #c2c9bf;
+    padding: 25px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 0.2);
+
+
+
+    .header {
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border-bottom: 1px solid #555;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 0.2);
+}

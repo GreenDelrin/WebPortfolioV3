@@ -1,58 +1,106 @@
 /*blurb section*/
 
-.blurb {
-
-    padding: 40px;
-    background-color: black;
-    border-radius: 4px;
+.body {
+    margin: 0 0 0 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
 }
 
-.blurb p {
-    font: Elvetica;
-    font-size: 16px;
-    color: #ccc;
-    text-align: center;
-
-}
-
-.img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 200px;
-    border-radius: 40%;
-}
-
-.blurb3 {
+.header {
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+    display: flex;
     margin: auto;
-    width: 75%;
-    padding: 40px
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    border-bottom: 1px solid #555;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 0.2);
 }
 
-.bio {
+.header h1 {
 
-    width: 50%;
+    text-align: left;
+    padding: 0px 40px 0px 40px;
+    max-width: 700px;
+
+}
+
+.header p {
+
+    font-size: 18px;
+    text-align: left;
+    padding: 0px 40px 0px 40px;
+    max-width: 700px;
+
+}
+
+.myimg {
+
+    width: 300px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 0.2);
+    border-radius: 50%;
     margin: auto;
 }
 
 .portfolio {
+    text-align: center;
+}
 
+.box {
+
+    padding: 40px 40px 40px 40px;
+    display: flex;
     margin: auto;
-    width: 75%;
-    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
 }
 
 .image {
-    height: 400px;
-    text-align: top;
-    border: 3px solid #555;
+    width: 320px;
+    border: 1px solid #555;
     border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 0.2);
 }
 
 .links {
+    color: rgb(47, 80, 198);
     font-size: 1.5em;
     text-decoration: none;
-    padding-top: 15px;
+    text-align: left;
+    padding: 15px 40px 0px 40px;
+    max-width: 700px;
+}
+
+.links:hover {
+    color: dodgerblue;
+}
+
+.description {
+    font-size: 18px;
+    text-align: left;
+    padding: 0px 40px 0px 40px;
+    max-width: 700px;
+}
+
+.form-container {
+    margin: auto;
+    width: 77%;
+    border: 1px solid #555;
+    border-radius: 4px;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 0.2);
+
 }
 
 input[type=text],
@@ -69,7 +117,7 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: darkred;
+    background-color: rgb(57, 88, 120);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -88,11 +136,9 @@ input[type=submit]:hover {
 }
 
 .footer {
-    padding: 20px;
-    background-color: black;
-    text-align: center;
-}
 
-.footer p {
-    color: #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+    margin: auto;
 }
